@@ -20,6 +20,10 @@ html {
 
 }
 
+.background-black {
+  background: rgba(0,0,0,0.5);
+}
+
 .nav-bar {
   font-size: 21px;
   align-items: center;
