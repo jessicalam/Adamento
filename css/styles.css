@@ -11,13 +11,12 @@
   }
 
 html {
-  font-family: "walkway_blackregular", "Arial", sans-serif;
+  font-family: "walkway_blackregular", "helvetica", sans-serif;
 }
 .nav-bar-styling {
   color: white;
   height: 75px;
   background: rgba(80, 86, 98, 0.75);
-
 }
 
 .full-width {
@@ -26,8 +25,6 @@ html {
   height:auto;
   background-size: cover;
 }
-
-
 
 .background-black {
   background: rgba(0,0,0,0.5);
