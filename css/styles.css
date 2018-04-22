@@ -11,12 +11,15 @@
   }
 
 html {
-  font-family: "walkway_blackregular", "Arial", sans-serif;
+  font-family: "walkway_blackregular", "Helvetica", "Arial", sans-serif;
+  padding: 0px;
+  margin: 0px;
 }
 .nav-bar-styling {
   color: white;
   height: 75px;
   background: rgba(80, 86, 98, 0.75);
+
 }
 
 .full-width {
@@ -25,6 +28,8 @@ html {
   height:auto;
   background-size: cover;
 }
+
+
 
 .background-black {
   background: rgba(0,0,0,0.5);
@@ -38,5 +43,22 @@ html {
 .mid-page-logo {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   font-weight: bold;
+  width:100%;
+  height: auto;
+}
 
+.shrink-logo {
+  width:90%;
+  height: auto;
+}
+
+@media (max-width:425px) {
+  .desktop-menu, .tablet-menu {
+    display:none!important
+  }
+}
+@media (min-width:426px) {
+  .mobile-menu {
+    display:none!important
+  }
 }
