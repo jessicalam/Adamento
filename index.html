@@ -18,7 +18,7 @@
 				<div id="demo" class="w3-dropdown-content w3-bar-block w3-card">
 					<a href="index.html" class="w3-button w3-black w3-mobile">HOME</a>
 					<a href="showcase.html" class="w3-button w3-black w3-mobile">SHOWCASE</a>
-					<a href="http://andamentodatabase.azurewebsites.net/" class="w3-button w3-black w3-mobile">STORE</a>
+					<a href="http://andamentodatabase.azurewebsites.net/welcome-to-our-store" class="w3-button w3-black w3-mobile">STORE</a>
 					<a href="about.html" class="w3-button w3-black w3-mobile">ABOUT US</a>
 				</div>
 			</div>
@@ -30,7 +30,7 @@
 				<div class="w3-right nav-bar">
 					<a href="index.html" class="w3-bar-item w3-button">HOME</a>
 					<a href="showcase.html" class="w3-button w3-bar-item ">SHOWCASE</a>
-					<a href="http://andamentodatabase.azurewebsites.net/" class="w3-button w3w3-bar-item">STORE</a>
+					<a href="http://andamentodatabase.azurewebsites.net/welcome-to-our-store" class="w3-button w3w3-bar-item">STORE</a>
 					<a href="about.html" class="w3-bar-item w3-button">ABOUT US</a>
 				</div>
 			</div>
@@ -51,7 +51,12 @@
 
 		<div class="w3-content " style="max-width:1564px">
 			<img class="w3-image full-width" src="./img/shoe_hold1.png" alt="man holding show"  >
-			<img class="w3-image full-width" src="./img/black_background1.png" alt="black background" >
+			<img class="w3-image full-width" onclick="openModal();" src="./img/black_background1.png" alt="black background" >
+			<div id="myModal" class="modal">
+			  <span class="close cursor" onclick="closeModal()">&times;</span>
+			  <div class="modal-content">
+					<img class="w3-image full-width"  src="./img/stretch-tech.png"  >
+			</div>
 			<img class="w3-image full-width" src="./img/black_pen1.png" alt="black pen" >
 			<!-- Project Section -->
 
@@ -76,5 +81,6 @@
 		<!-- scripts -->
 		<script type="text/javascript" src="./js/slideshow.js"></script>
 		<script type="text/javascript" src="./js/dropdown.js"></script>
+		<script type="text/javascript" src="./js/lightbox.js"></script>
 	</body>
 </html>
