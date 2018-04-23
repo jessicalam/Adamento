@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+	<title>Andamento</title>
+	<meta charset="UTF-8">
+	<link rel="icon" href="./img/lambdabold.png">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<link rel="stylesheet" href="./css/gallerystyles.css">
+  <link rel="stylesheet" href="./css/styles.css">
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3mobile.css">
+	<body>
+		<!-- Navbar (sit on top) -->
+
+		<div class="mobile-menu  w3-top">
+			<div class="w3-dropdown-click">
+				<div class="w3-button w3-black w3-mobile" onclick="dropDownFunction()">
+							Dropdown <i class="fa fa-caret-down"></i>
+				</div>
+				<div id="demo" class="w3-dropdown-content w3-bar-block w3-card">
+					<a href="index.html" class="w3-button w3-black w3-mobile">HOME</a>
+					<a href="showcase.html" class="w3-button w3-black w3-mobile">SHOWCASE</a>
+					<a href="http://andamentodatabase.azurewebsites.net/" class="w3-button w3-black w3-mobile">STORE</a>
+					<a href="#about" class="w3-button w3-black w3-mobile">ABOUT US</a>
+				</div>
+			</div>
+		</div>
+		<div class="desktop-menu tablet-menu w3-top ">
+			<div class="w3-bar nav-bar-styling  w3-wide w3-padding w3-card" >
+				<a href="#home" class="w3-bar-item "><img id="logo" src="./img/lambdaboldwhite.png" alt="lambda logo white" style="height: 70px; margin-top: -15px;"></a>
+				<!-- Float links to the right. Hide them on small screens -->
+				<div class="w3-right nav-bar">
+					<a href="#women" class="w3-bar-item w3-button">WOMEN</a>
+					<a href="showcase.html" class="w3-button w3-bar-item ">SHOWCASE</a>
+					<a href="http://andamentodatabase.azurewebsites.net/" class="w3-button w3w3-bar-item">STORE</a>
+					<a href="#about" class="w3-bar-item w3-button">ABOUT US</a>
+				</div>
+			</div>
+		</div>
+
+
+		<!-- Header -->
+		<header id="home" class="w3-display-container w3-content w3-wide " style="max-width:1500px;" >
+			<img class="w3-image mySlides full-width" src="./img/slideshow/womanman.jpg" alt="woman and man"  >
+			<img class="w3-image mySlides full-width" src="./img/slideshow/businessman.jpg" alt="Businessman with suit"  >
+			<img class="w3-image mySlides full-width" src="./img/slideshow/smiling-man.jpg" alt="Smiling Man" >
+			<img class="w3-image mySlides full-width" src="./img/slideshow/indoor-businessman.jpg" alt="indoor businessman"  >
+			<div class="w3-display-middle w3-margin-top w3-center">
+				<h1 class="w3-xxlarge w3-text-white mid-page-logo background-black"> <img class="shrink-logo" src="./img/lambdalogowhite.png" alt="lambda logo white" > </h1>
+			</div>
+		</header>
+		<!-- Page content -->
+    <div class="row">
+      <div id="women" class="column">
+        <img class="w3-image" src="./img/women/4462ade8f0.png" >
+        <img class="w3-image" src="./img/women/Porsche-Design-Fall-Winter-2013-2014-8.jpg"   >
+        <img class="w3-image" src="./img/women/Porsche-Design-Spring-Summer-2017-Women-06.jpg" >
+
+      </div>
+      <div id="men" class="column">
+        <img class="w3-image" src="./img/men/banner.jpg" >
+        <img class="w3-image" src="./img/men/2013_08_12_13_43_42.jpg"   >
+        <img class="w3-image" src="./img/women/dark-outfit.png" >
+        <img class="w3-image" src="./img/men/shoe-black.png" >
+        <img class="w3-image" src="./img/men/banner2.jpeg" >
+
+      </div>
+      <div class="column">
+        <img class="w3-image" src="./img/men/spy.png" >
+        <img class="w3-image" src="./img/men/sporty-black.png"   >
+        <img class="w3-image" src="./img/men/spring-jacket.jpg"   >
+      </div>
+    </div>
+
+
+
+
+
+
+			<!-- End page content -->
+		</div>
+		<!-- Footer -->
+		<footer class="w3-center w3-black w3-padding-16" style="margin-top:10px;">
+			<p>Powered by The Adamento Team 2018</p>
+		</footer>
+		<!-- scripts -->
+		<script type="text/javascript" src="./js/slideshow.js"></script>
+		<script type="text/javascript" src="./js/dropdown.js"></script>
+	</body>
+</html>
