@@ -30,5 +30,5 @@ Login, Firewall, and Security Center Solution
 * Christian Skarli @skarlich
 
 
-[Github Andamento Website] (https://jessicalam.github.io/Andamento/)
+[Github Andamento Website](https://jessicalam.github.io/Andamento/)
 (links may not work after May 2019)
