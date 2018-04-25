@@ -22,6 +22,17 @@ SQL database, nopCommerce
 ### Security 
 Login, Firewall, and Security Center Solution
 
+ ### Contributors
+-Yaletzy Alaniz
+-Thomas Jones @TJones58
+-Jessica Lam @jessicalam
+-Rehman Sheikh @sheikhre
+-Christian Skarli @skarlich
++* Yaletzy Alaniz
++* Thomas Jones @TJones58
++* Jessica Lam @jessicalam
++* Rehman Sheikh @sheikhre
++* Christian Skarli @skarlich
 
 
 [Github Andamento Website] (https://jessicalam.github.io/Andamento/)
