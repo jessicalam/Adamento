@@ -32,5 +32,3 @@ Login, Firewall, and Security Center Solution
 
 [Github Andamento Website](https://jessicalam.github.io/Andamento/)
 (links may not work after May 2019)
-
-#IMAGES ON THE SITE ARE ALL NOT OWNED BY US

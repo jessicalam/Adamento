@@ -18,22 +18,21 @@ html {
 .nav-bar-styling {
   color: white;
   height: 75px;
-
+  background: rgba(80, 86, 98, 0.75);
 
 }
 
 .full-width {
   max-width: 100%;
-  width:100% !important;
+  width:100%;
   height:auto;
   background-size: cover;
-  
 }
 
 
 
 .background-black {
-  background: rgba(0,0,0,0.0);
+  background: rgba(0,0,0,0.5);
 }
 
 .nav-bar {
@@ -49,7 +48,7 @@ html {
 }
 
 .shrink-logo {
-  width:1000px;
+  width:100%;
   height: auto;
 }
 
@@ -100,16 +99,4 @@ html {
   color: #999;
   text-decoration: none;
   cursor: pointer;
-}
-
-img.mySlides {
-    width:2100px;
-}
-
-.full-img {
-    width:100%
-    width:2100px;
-    height: auto;
-    margin:0px !important;
-    padding:0px;
 }
