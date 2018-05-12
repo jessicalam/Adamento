@@ -1,5 +1,5 @@
 
-# Disclaimer: IMAGES ON THE SITE ARE ALL NOT OWNED BY US
+# DISCLAIMER: IMAGES ON THE SITE ARE ALL NOT OWNED BY THE ANDAMENTO TEAM
 ### All images were used for educational purposes. We do not intend to make money off of any of it and we didn't make money off of it. This project was done to express how to execute a cloud computing solution with IaaS and PaaS usages. If you feel strongly about us having the photos up here, please let me know at [j.lam@mail.com](j.lam@mail.com) with the subject line "Andamento Photo Removal Inquiry." 
 
 # Andamento, the exclusive MSU clothing brand
